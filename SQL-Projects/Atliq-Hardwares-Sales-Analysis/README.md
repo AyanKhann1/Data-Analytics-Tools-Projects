@@ -74,43 +74,7 @@ The project can support decisions around **product planning, customer discount s
 - Filtering and sorting
 - Year-over-year comparison
 
-## 9. Dataset
-
-The project uses a business sales dataset for Atliq Hardwares. The data includes product, customer, sales, pricing, and discount information.
-
-Tables used in the SQL analysis include:
-
-- `dim_customer`
-- `dim_product`
-- `fact_sales_monthly`
-- `fact_gross_price`
-- `fact_manufacturing_cost`
-- `fact_pre_invoice_deductions`
-
-Key fields used:
-
-- Customer
-- Market
-- Region
-- Product code
-- Product segment
-- Fiscal year
-- Sold quantity
-- Gross price
-- Manufacturing cost
-- Pre-invoice discount percentage
-
-## 10. Process
-
-- Reviewed the business problem and converted it into SQL questions.
-- Joined product, customer, sales, price, and discount tables.
-- Used conditional aggregation to compare unique products across fiscal years.
-- Grouped product counts by segment to identify segment-level performance.
-- Used customer and discount data to identify high-discount customers in India.
-- Used date logic to group sold quantity by quarter.
-- Interpreted SQL outputs and converted them into business recommendations.
-
-## 11. SQL Questions and Code
+## 9. SQL Questions and Code
 
 ### Question 1: Which markets does Atliq Exclusive operate in within the APAC region?
 
@@ -295,6 +259,42 @@ ORDER BY
     division,
     product_rank;
 ```
+
+## 10. Dataset
+
+The project uses a business sales dataset for Atliq Hardwares. The data includes product, customer, sales, pricing, and discount information.
+
+Tables used in the SQL analysis include:
+
+- `dim_customer`
+- `dim_product`
+- `fact_sales_monthly`
+- `fact_gross_price`
+- `fact_manufacturing_cost`
+- `fact_pre_invoice_deductions`
+
+Key fields used:
+
+- Customer
+- Market
+- Region
+- Product code
+- Product segment
+- Fiscal year
+- Sold quantity
+- Gross price
+- Manufacturing cost
+- Pre-invoice discount percentage
+
+## 11. Process
+
+- Reviewed the business problem and converted it into SQL questions.
+- Joined product, customer, sales, price, and discount tables.
+- Used conditional aggregation to compare unique products across fiscal years.
+- Grouped product counts by segment to identify segment-level performance.
+- Used customer and discount data to identify high-discount customers in India.
+- Used date logic to group sold quantity by quarter.
+- Interpreted SQL outputs and converted them into business recommendations.
 
 ## 12. What I Learned
 
