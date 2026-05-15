@@ -1,6 +1,6 @@
 # Ayan Khan - Data Analytics Portfolio
 
-Welcome to my data analytics portfolio. This repository contains business-focused analytics projects built for **Data Analyst, Business Analyst, Product Analyst, and E-commerce Analyst** roles.
+Welcome to my data analytics portfolio. This repository contains business-focused analytics projects built for **Data Analyst, Business Analyst, Product Analyst, E-commerce Analyst, and AI-focused analytics** roles.
 
 The goal of this portfolio is to show how I approach real business questions: understanding the problem, preparing the data, creating useful metrics, building dashboards or queries, and turning findings into practical recommendations.
 
@@ -10,6 +10,7 @@ The goal of this portfolio is to show how I approach real business questions: un
 |---|---|
 | [Excel Projects](Excel-Projects/README.md) | Excel dashboards, Pivot Tables, Power Query, data cleaning, and business reporting |
 | [SQL Projects](SQL-Projects/README.md) | SQL case studies, querying, KPI analysis, and business problem solving |
+| [AI Projects](AI-Projects/README.md) | AI prototypes, automation projects, and AI-assisted app builds |
 | [Power BI Projects](Power-BI-Projects/README.md) | Power BI dashboards and reporting projects |
 | [Python Projects](Python-Projects/README.md) | Python data cleaning, EDA, automation, and visualization projects |
 
@@ -29,6 +30,7 @@ The goal of this portfolio is to show how I approach real business questions: un
 - KPI definition
 - Excel dashboarding
 - SQL querying and analysis
+- AI-assisted project building
 - Customer, sales, pricing, and subscription analysis
 - Insight generation
 - Recommendation writing
@@ -45,6 +47,7 @@ The goal of this portfolio is to show how I approach real business questions: un
 ├── SQL-Projects/
 │   ├── Foodie-Fi-Subscription-Analytics/
 │   └── Atliq-Hardwares-Sales-Analysis/
+├── AI-Projects/
 ├── Power-BI-Projects/
 └── Python-Projects/
 ```
