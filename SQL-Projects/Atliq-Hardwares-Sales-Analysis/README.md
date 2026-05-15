@@ -309,4 +309,4 @@ Key fields used:
 | File | Description |
 |---|---|
 | `README.md` | Business case study and project summary |
-| `files/atliq-hardwares-analysis.sql` | SQL queries used for the analysis |
+| `atliq-hardwares-analysis.sql` | SQL queries used for the analysis |
