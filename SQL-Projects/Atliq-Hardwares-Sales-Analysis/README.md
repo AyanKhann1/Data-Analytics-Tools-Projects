@@ -2,129 +2,132 @@
 
 ## 1. Overview
 
-This project analyzes sales performance for Atliq Hardwares, a fictional hardware business, using SQL. The analysis focuses on comparing business performance across 2020 and 2021, identifying sales trends, and supporting management decisions with data-backed insights.
+This project analyzes **Atliq Hardwares' 2020 and 2021 sales data** using SQL. The analysis focuses on product growth, segment performance, customer discounts, quarterly sales quantity, and business opportunities for the management team.
 
-The project matters because leadership teams need a clear view of sales performance, customer behavior, and market-level changes before planning growth strategies.
+The goal was to convert raw business data into clear SQL-based insights that can help leadership understand what changed between 2020 and 2021.
 
 ## 2. Business Problem
 
-Atliq Hardwares expanded its business and needed to understand how performance changed year over year. Management wanted to identify variations in sales, market segments, customer behavior, and business opportunities so they could make better decisions for the next year.
+Atliq Hardwares expanded its business and needed to understand how performance changed from **2020 to 2021**. Management wanted to identify changes in product portfolio, customer behavior, market performance, and sales quantity before planning the next year.
+
+The business needed answers to questions such as:
+
+- Did the product portfolio increase in 2021?
+- Which product segments had the highest product counts?
+- Which segment had the largest product increase?
+- Which customers received the highest pre-invoice discounts in India?
+- Which quarter had the highest sold quantity?
 
 ## 3. Objective
 
-- Compare 2021 performance against 2020.
-- Identify sales trends across markets, products, and customers.
-- Highlight areas of growth and underperformance.
-- Support executive decision-making with clear SQL-based analysis.
-- Create a concise business case study that connects analysis to action.
+- Compare product growth between **2020 and 2021**.
+- Identify high-performing product segments.
+- Find the segment with the biggest increase in unique products.
+- Analyze discount patterns for key customers in the Indian market.
+- Identify the strongest quarter by sold quantity.
+- Use SQL to create business-ready outputs for management review.
 
-## 4. Tools Used
+## 4. Key Insights
 
-- SQL
-- Joins
-- Aggregations
-- Filtering
-- Year-over-year comparison
-- Business performance analysis
+- Unique products increased from **245 in 2020** to **334 in 2021**, showing a broader product portfolio.
+- **Accessories** had the largest increase in unique products, growing from **69 products in 2020** to **103 products in 2021**.
+- **Notebook** had the highest product count with **129 products**, followed by **Accessories with 116** and **Peripherals with 84**.
+- In the Indian market, **Flipkart** was one of the top customers receiving a high average pre-invoice discount in fiscal year 2021.
+- **Q4 had the highest sold quantity in 2021**, with **17,447,125 units sold**, higher than Q1, Q2, and Q3.
+- The results suggest that product expansion, customer discounting, and seasonal demand should be reviewed together before planning future growth.
 
-## 5. Dataset
+## 5. Recommendations
 
-The project uses a fictional business dataset for Atliq Hardwares. Based on the project context, the data represents historical sales and customer information.
+- Prioritize the **Accessories** segment because it had the strongest product expansion from 2020 to 2021.
+- Use the strong **Notebook** and **Accessories** product counts to design bundle offers, cross-selling campaigns, and segment-specific promotions.
+- Review high-discount customers such as **Flipkart** to confirm whether discounting is supporting profitable growth.
+- Study **Q4 performance** in detail to understand whether seasonal demand, promotions, or product availability caused the sales spike.
+- Strengthen inventory and supply chain planning before Q4 so the business can handle higher demand without stock or fulfillment issues.
+- Combine this SQL analysis with margin and profitability data in future work to understand whether growth is also financially efficient.
 
-Expected fields may include:
+## 6. Business Impact
 
-- Order or transaction date
-- Customer
-- Product
-- Market
-- Sales amount
-- Quantity sold
-- Fiscal year or calendar year
-- Segment/category fields
+This analysis helps Atliq Hardwares understand where its product portfolio expanded, which segments deserve more attention, and when sales demand is strongest.
 
-Assumption:
-
-> This project uses a portfolio case study dataset structured to represent a realistic hardware sales analysis scenario. No confidential business data is included.
-
-## 6. Process
-
-- Reviewed the business problem and stakeholder needs.
-- Explored sales data across two comparison years.
-- Used SQL to filter, aggregate, and compare business performance.
-- Created summary outputs to highlight important changes.
-- Interpreted results in business language for management stakeholders.
-- Converted findings into recommendations for planning and performance improvement.
+The project can support decisions around **product planning, customer discount strategy, seasonal inventory planning, sales forecasting, and market expansion**.
 
 ## 7. Key Metrics
 
-- Total sales
-- Year-over-year sales change
-- Customer-level sales contribution
-- Market-level performance
-- Product or segment performance
-- Sales quantity
-- Growth and decline by category
+- **Unique products in 2020:** 245
+- **Unique products in 2021:** 334
+- **Increase in unique products:** 89
+- **Highest product-count segment:** Notebook with 129 products
+- **Second-highest product-count segment:** Accessories with 116 products
+- **Largest product increase by segment:** Accessories, from 69 to 103 products
+- **Top discounted customer example:** Flipkart in India, fiscal year 2021
+- **Highest sold quantity quarter:** Q4 2021 with 17,447,125 units sold
 
-## 8. Dashboard / Output
+## 8. Tools Used
 
-### SQL Output Placeholder
+- SQL
+- Joins
+- CTEs
+- Aggregate functions
+- Conditional statements
+- Window functions
+- Data manipulation functions
+- Filtering and sorting
+- Year-over-year comparison
 
-Add SQL result screenshots or exported result tables here:
+## 9. Dataset
 
-```markdown
-![Atliq SQL Output](assets/atliq-sql-output.png)
-```
+The project uses a business sales dataset for Atliq Hardwares. The data includes product, customer, sales, pricing, and discount information.
 
-### Business Summary Placeholder
+Tables used in the SQL analysis include:
 
-Add a one-page executive summary or visual snapshot here:
+- `dim_customer`
+- `dim_product`
+- `fact_sales_monthly`
+- `fact_gross_price`
+- `fact_manufacturing_cost`
+- `fact_pre_invoice_deductions`
 
-```markdown
-![Atliq Business Summary](assets/atliq-business-summary.png)
-```
+Key fields used:
 
-Recommended visuals:
+- Customer
+- Market
+- Region
+- Product code
+- Product segment
+- Fiscal year
+- Sold quantity
+- Gross price
+- Manufacturing cost
+- Pre-invoice discount percentage
 
-- 2020 vs 2021 sales comparison
-- Top customers by sales
-- Top markets by sales
-- Product or segment growth table
-- Key performance highlights
+## 10. Process
 
-## 9. Key Insights
+- Reviewed the business problem and converted it into SQL questions.
+- Joined product, customer, sales, price, and discount tables.
+- Used conditional aggregation to compare unique products across fiscal years.
+- Grouped product counts by segment to identify segment-level performance.
+- Used customer and discount data to identify high-discount customers in India.
+- Used date logic to group sold quantity by quarter.
+- Interpreted SQL outputs and converted them into business recommendations.
 
-- Year-over-year comparison helps management understand whether growth was broad-based or concentrated in specific areas.
-- Market-level analysis can reveal which regions or customer groups contributed most to business performance.
-- Customer-level sales contribution helps identify high-value accounts and potential dependency risks.
-- Product or segment-level analysis can show where demand increased and where performance weakened.
-- SQL-based summaries make it easier for management to move from raw transaction data to decision-ready reporting.
+## 11. SQL Questions Answered
 
-## 10. Recommendations
-
-- Prioritize high-performing markets and customers for retention and expansion.
-- Investigate underperforming markets or segments to understand whether the issue is demand, pricing, supply, or sales execution.
-- Track year-over-year performance regularly instead of reviewing it only at year end.
-- Build a repeatable sales performance report for management review.
-- Combine sales results with margin, inventory, and customer data in future analysis for stronger decision-making.
-
-## 11. Business Impact
-
-This analysis can help management understand sales movement, identify business opportunities, and focus planning discussions on measurable performance. It supports better decisions around market prioritization, customer focus, and future growth strategy.
+- Which markets does **Atliq Exclusive** operate in within the APAC region?
+- What is the unique product change from **2020 to 2021**?
+- What are the unique product counts by segment?
+- Which segment had the highest increase in unique products?
+- Which products had the highest and lowest manufacturing costs?
+- Which customers received the highest average pre-invoice discount in India in fiscal year 2021?
+- What was the gross sales amount for **Atliq Exclusive** by month?
+- Which quarter had the maximum sold quantity?
+- Which channel contributed more gross sales in fiscal year 2021?
+- Which were the top products by sold quantity?
 
 ## 12. What I Learned
 
-- Structuring a business performance analysis using SQL.
-- Comparing sales across time periods.
-- Translating SQL outputs into business insights.
-- Presenting analysis for executive and management stakeholders.
-- Building a portfolio case study around practical business decision-making.
-
-## 13. Files
-
-| File | Description |
-|---|---|
-| `README.md` | Project case study |
-| `assets/` | Placeholder for screenshots, output tables, and summary visuals |
-| `files/Case-Study Code.sql` | SQL analysis file to be added or cleaned |
-| `files/Highlights of Project.txt` | Project highlights/output notes to be added or cleaned |
+- Writing SQL queries for real business questions.
+- Using joins across fact and dimension tables.
+- Applying CTEs, conditional logic, and aggregate functions.
+- Comparing business performance across years and segments.
+- Turning SQL query outputs into management-level insights and recommendations.
 
