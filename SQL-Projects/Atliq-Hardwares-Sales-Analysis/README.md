@@ -131,3 +131,9 @@ Key fields used:
 - Comparing business performance across years and segments.
 - Turning SQL query outputs into management-level insights and recommendations.
 
+## 13. Files
+
+| File | Description |
+|---|---|
+| `README.md` | Business case study and project summary |
+| `files/atliq-hardwares-analysis.sql` | SQL queries used for the analysis |
