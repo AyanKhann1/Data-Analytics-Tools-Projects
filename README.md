@@ -1,4 +1,4 @@
-# Ayan Khan - Data Analytics Portfolio
+# Ayan Khan - Data Analytics Tools Portfolio
 
 Welcome to my data analytics portfolio. This repository contains business-focused analytics projects built for **Data Analyst, Business Analyst, Product Analyst, E-commerce Analyst, and AI-focused analytics** roles.
 
