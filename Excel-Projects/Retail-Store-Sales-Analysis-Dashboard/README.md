@@ -52,10 +52,6 @@ Based on the analysis, the dataset includes fields related to:
 - Order status
 - B2B order flag
 
-Assumption:
-
-> This project uses store sales data for portfolio analysis. If the original dataset contains any private or sensitive fields, a cleaned sample version should be shared in the GitHub repository instead of confidential raw data.
-
 ## 6. Process
 
 - Reviewed the raw dataset to understand columns, structure, and business meaning.
