@@ -1,6 +1,6 @@
 # Office Essentials Retail Sales Analysis Dashboard
 
-![Retail Sales Analysis Dashboard](assets/01_retail_sales_dashboard.png)
+![15 Days Sales Forecasting](assets/02_15_days_sales_forecast.png)
 
 ## 1. Overview
 
@@ -34,7 +34,7 @@ The dataset appears to include fields related to order date, sales, profit, quan
 
 ### Sales Performance Dashboard
 
-![Retail Sales Analysis Dashboard](assets/01_retail_sales_dashboard.png)
+![15 Days Sales Forecasting](assets/02_15_days_sales_forecast.png)
 
 **Insight:** The store generated approximately **$2M in sales**, processed around **22K orders**, and earned about **$175K profit**. The average delivery time was approximately **4 days**.
 
@@ -46,7 +46,7 @@ The dataset appears to include fields related to order date, sales, profit, quan
 
 ### 15-Day Sales Forecast
 
-![15 Days Sales Forecasting](assets/02_15_days_sales_forecast.png)
+![Retail Sales Analysis Dashboard](assets/01_retail_sales_dashboard.png)
 
 **Insight:** For the first 15 days of January 2021, forecasted sales are projected to reach approximately **9,470**, with the lowest projected value around **1,156**.
 
