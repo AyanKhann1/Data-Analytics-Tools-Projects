@@ -19,9 +19,7 @@ The goal of this portfolio is to show how I approach real business questions: un
 | Project | Focus Area | Tools |
 |---|---|---|
 | [Retail Store Sales Analysis Dashboard](Excel-Projects/Retail-Store-Sales-Analysis-Dashboard/README.md) | Store sales, customer behavior, order trends | Excel, Pivot Tables, Pivot Charts |
-| [Amazon Pricing & Rating Analysis](Excel-Projects/Amazon-Pricing-Rating-Analysis/README.md) | E-commerce pricing, discounts, ratings, product demand | Excel, Power Query, Pivot Tables |
-| [Foodie-Fi Subscription Analytics](SQL-Projects/Foodie-Fi-Subscription-Analytics/README.md) | Subscription analytics, churn, conversion, customer lifecycle | SQL |
-| [Atliq Hardwares Sales Analysis](SQL-Projects/Atliq-Hardwares-Sales-Analysis/README.md) | Sales performance, year-over-year comparison, customer and market trends | SQL |
+| [Amazon Product Pricing & Rating Analysis](Excel-Projects/Amazon-Pricing-Rating-Analysis/README.md) | E-commerce pricing, discounts, ratings, product demand | Excel, Power Query, Pivot Tables |
 
 ## Skills Demonstrated
 
