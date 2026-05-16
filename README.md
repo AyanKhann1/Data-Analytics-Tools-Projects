@@ -20,6 +20,7 @@ The goal of this portfolio is to show how I approach real business questions: un
 |---|---|---|
 | [Retail Store Sales Analysis Dashboard](Excel-Projects/Retail-Store-Sales-Analysis-Dashboard/README.md) | Store sales, customer behavior, order trends | Excel, Pivot Tables, Pivot Charts |
 | [Amazon Product Pricing & Rating Analysis](Excel-Projects/Amazon-Pricing-Rating-Analysis/README.md) | E-commerce pricing, discounts, ratings, product demand | Excel, Power Query, Pivot Tables |
+| [Office Essentials Retail Sales Analysis](Power-BI-Projects/Office-Essentials-Retail-Sales-Analysis/README.md) | Retail sales, profit, delivery performance, forecasting | Power BI, DAX, Power Query |
 
 ## Skills Demonstrated
 

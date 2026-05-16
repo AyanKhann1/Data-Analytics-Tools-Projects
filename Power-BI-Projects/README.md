@@ -1,8 +1,10 @@
 # Power BI Projects
 
-This folder will contain Power BI dashboard and reporting projects.
+This folder contains Power BI dashboard and reporting projects focused on business performance, KPI tracking, forecasting, and decision-ready insights.
 
 ## Projects
 
-Power BI projects will be added here.
+| Project | Focus Area | Tools |
+|---|---|---|
+| [Office Essentials Retail Sales Analysis](Office-Essentials-Retail-Sales-Analysis/README.md) | Retail sales, profit, delivery performance, category analysis, forecasting | Power BI, DAX, Power Query |
 
