@@ -1,6 +1,6 @@
 # Amazon Pricing & Rating Analysis Dashboard
 
-![Amazon Pricing & Rating Analysis Dashboard](assets/amazon-pricing-rating-analysis-dashboard.png)
+![Amazon Product Pricing & Rating Analysis Dashboard](assets/amazon-pricing-rating-analysis-dashboard.png)
 
 ## 1. Overview
 
