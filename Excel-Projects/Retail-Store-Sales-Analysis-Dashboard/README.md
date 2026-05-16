@@ -1,5 +1,5 @@
 # Khan Store Sales Dashboard
-
+![Khan Store Sales Dashboard](https://raw.githubusercontent.com/AyanKhann1/Data-Analytics-Portfolio/main/Excel-Projects/Retail-Store-Sales-Analysis-Dashboard/assets/dashboard.jpg)
 ## 1. Overview
 
 This project analyzes 2022 sales data for Khan Store using Excel. The goal was to understand overall store performance, customer behavior, order trends, brand contribution, delivery status, and B2B order share.
