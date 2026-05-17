@@ -10,7 +10,6 @@ The goal of this portfolio is to show how I approach real business questions: un
 |---|---|
 | [Excel Projects](Excel-Projects/README.md) | Excel dashboards, Pivot Tables, Power Query, data cleaning, and business reporting |
 | [SQL Projects](SQL-Projects/README.md) | SQL case studies, querying, KPI analysis, and business problem solving |
-| [AI Projects](AI-Projects/README.md) | AI prototypes, automation projects, and AI-assisted app builds |
 | [Power BI Projects](Power-BI-Projects/README.md) | Power BI dashboards and reporting projects |
 | [Python Projects](Python-Projects/README.md) | Python data cleaning, EDA, automation, and visualization projects |
 
