@@ -6,9 +6,9 @@ This project analyzes **Atliq Hardwares' 2020 and 2021 sales data** using SQL. T
 
 The goal was to convert raw business data into clear SQL-based insights that can help leadership understand what changed between 2020 and 2021.
 
-## 2. Business Problem
+## 2. **Business Problem**
 
-Atliq Hardwares expanded its business and needed to understand how performance changed from **2020 to 2021**. Management wanted to identify changes in product portfolio, customer behavior, market performance, and sales quantity before planning the next year.
+Atliq Hardwares expanded its business and needed to understand how performance changed from **2020 to 2021**. Management wanted to identify changes in product portfolio, **Customer behavior**, market performance, and sales quantity before planning the next year.
 
 The business needed answers to questions such as:
 
@@ -18,7 +18,7 @@ The business needed answers to questions such as:
 - Which customers received the highest pre-invoice discounts in India?
 - Which quarter had the highest sold quantity?
 
-## 3. Objective
+## 3. **Objective**
 
 - Compare product growth between **2020 and 2021**.
 - Identify high-performing product segments.
@@ -27,7 +27,7 @@ The business needed answers to questions such as:
 - Identify the strongest quarter by sold quantity.
 - Use SQL to create business-ready outputs for management review.
 
-## 4. Key Insights
+## 4. **Key Insights**
 
 - Unique products increased from **245 in 2020** to **334 in 2021**, showing a broader product portfolio.
 - **Accessories** had the largest increase in unique products, growing from **69 products in 2020** to **103 products in 2021**.
@@ -36,7 +36,7 @@ The business needed answers to questions such as:
 - **Q4 had the highest sold quantity in 2021**, with **17,447,125 units sold**, higher than Q1, Q2, and Q3.
 - The results suggest that product expansion, customer discounting, and seasonal demand should be reviewed together before planning future growth.
 
-## 5. Recommendations
+## 5. **Recommendations**
 
 - Prioritize the **Accessories** segment because it had the strongest product expansion from 2020 to 2021.
 - Use the strong **Notebook** and **Accessories** product counts to design bundle offers, cross-selling campaigns, and segment-specific promotions.
@@ -45,7 +45,7 @@ The business needed answers to questions such as:
 - Strengthen inventory and supply chain planning before Q4 so the business can handle higher demand without stock or fulfillment issues.
 - Combine this SQL analysis with margin and profitability data in future work to understand whether growth is also financially efficient.
 
-## 6. Business Impact
+## 6. **Business Impact**
 
 This analysis helps Atliq Hardwares understand where its product portfolio expanded, which segments deserve more attention, and when sales demand is strongest.
 
@@ -288,13 +288,13 @@ Key fields used:
 
 ## 11. Process
 
-- Reviewed the business problem and converted it into SQL questions.
+- Reviewed the **Business Problem** and converted it into SQL questions.
 - Joined product, customer, sales, price, and discount tables.
 - Used conditional aggregation to compare unique products across fiscal years.
 - Grouped product counts by segment to identify segment-level performance.
 - Used customer and discount data to identify high-discount customers in India.
 - Used date logic to group sold quantity by quarter.
-- Interpreted SQL outputs and converted them into business recommendations.
+- Interpreted SQL outputs and converted them into business **Recommendations**.
 
 ## 12. What I Learned
 
@@ -302,7 +302,7 @@ Key fields used:
 - Using joins across fact and dimension tables.
 - Applying CTEs, conditional logic, and aggregate functions.
 - Comparing business performance across years and segments.
-- Turning SQL query outputs into management-level insights and recommendations.
+- Turning SQL query outputs into management-level insights and **Recommendations**.
 
 ## 13. Files
 

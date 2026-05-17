@@ -1,14 +1,14 @@
-# Khan Store Sales Dashboard
-![Khan Store Sales Dashboard](https://raw.githubusercontent.com/AyanKhann1/Data-Analytics-Portfolio/main/Excel-Projects/Retail-Store-Sales-Analysis-Dashboard/assets/dashboard.jpg)
+# Khan Store Sales **Dashboard**
+![Khan Store Sales **Dashboard**](https://raw.githubusercontent.com/AyanKhann1/Data-Analytics-Portfolio/main/Excel-Projects/Retail-Store-Sales-Analysis-**Dashboard**/assets/**Dashboard**.jpg)
 ## 1. Overview
 
-This project analyzes 2022 sales data for Khan Store using Excel. The goal was to understand overall store performance, customer behavior, order trends, brand contribution, delivery status, and B2B order share.
+This project analyzes 2022 sales data for Khan Store using Excel. The goal was to understand overall store performance, **Customer behavior**, order trends, brand contribution, delivery status, and B2B order share.
 
-The final output is an Excel dashboard that gives a quick business view of sales, orders, customers, product categories, and operational performance.
+The final output is an Excel **Dashboard** that gives a quick business view of sales, orders, customers, product categories, and operational performance.
 
-## 2. Business Problem
+## 2. **Business Problem**
 
-The store needed a clear way to understand sales performance across brands, months, states, customer segments, and order status. Without a dashboard, it would be difficult to quickly answer important business questions such as:
+The store needed a clear way to understand sales performance across brands, months, states, customer segments, and order status. Without a **Dashboard**, it would be difficult to quickly answer important business questions such as:
 
 - Which brand generated the highest number of orders?
 - Which month had the strongest sales and order volume?
@@ -17,22 +17,22 @@ The store needed a clear way to understand sales performance across brands, mont
 - How many orders were delivered, returned, cancelled, or refunded?
 - How much of the business came from B2B orders?
 
-## 3. Objective
+## 3. **Objective**
 
 - Clean and prepare the sales dataset for analysis.
-- Calculate key sales and order KPIs.
+- Calculate key sales and order **KPIs**.
 - Identify top-performing brands, months, states, and customer segments.
 - Analyze order status and B2B contribution.
-- Build a dashboard that communicates insights clearly for business users.
+- Build a **Dashboard** that communicates insights clearly for business users.
 
 ## 4. Tools Used
 
 - Microsoft Excel
-- Pivot Tables
+- **Pivot Tables**
 - Pivot Charts
-- Data cleaning
+- **Data Cleaning**
 - Descriptive statistics
-- Dashboard design
+- **Dashboard** design
 
 ## 5. Dataset
 
@@ -58,9 +58,9 @@ Based on the analysis, the dataset includes fields related to:
 - Checked for missing values, abnormal entries, and data quality issues.
 - Cleaned the dataset so it could be used for accurate analysis.
 - Used descriptive statistics to calculate total sales, average sales, minimum and maximum sales, product categories, product sizes, and other summary values.
-- Created Pivot Tables to analyze sales and orders by brand, month, state, gender, age group, order status, and B2B category.
-- Built Pivot Charts to convert the analysis into a visual dashboard.
-- Designed the dashboard to highlight the most important business insights at the top and supporting breakdowns below.
+- Created **Pivot Tables** to analyze sales and orders by brand, month, state, gender, age group, order status, and B2B category.
+- Built Pivot Charts to convert the analysis into a visual **Dashboard**.
+- Designed the **Dashboard** to highlight the most important business insights at the top and supporting breakdowns below.
 
 ## 7. Key Metrics
 
@@ -78,19 +78,19 @@ Based on the analysis, the dataset includes fields related to:
 
 Note:
 
-> The dashboard screenshot should be updated to show the confirmed total sales value of INR 21.07M.
+> The **Dashboard** screenshot should be updated to show the confirmed total sales value of INR 21.07M.
 
-## 8. Dashboard / Output
+## 8. **Dashboard** / Output
 
-### Main Dashboard
+### Main **Dashboard**
 
-Add the final Excel dashboard screenshot here:
+Add the final Excel **Dashboard** screenshot here:
 
 ```markdown
-![Khan Store Sales Dashboard](assets/khan-store-sales-dashboard.png)
+![Khan Store Sales **Dashboard**](assets/khan-store-sales-**Dashboard**.png)
 ```
 
-This dashboard summarizes total orders, women customer share, average sales, total sales, product sizes, and product categories. It also shows brand-wise orders, monthly sales and orders, top states, customer segment spending, order delivery status, and B2B order share.
+This **Dashboard** summarizes total orders, women customer share, average sales, total sales, product sizes, and product categories. It also shows brand-wise orders, monthly sales and orders, top states, customer segment spending, order delivery status, and B2B order share.
 
 ### Dataset Preview
 
@@ -102,13 +102,13 @@ Add a screenshot of the cleaned dataset or sample data here:
 
 ### Pivot Table Summary
 
-Add a screenshot of key Pivot Tables here:
+Add a screenshot of key **Pivot Tables** here:
 
 ```markdown
 ![Pivot Table Summary](assets/pivot-table-summary.png)
 ```
 
-## 9. Key Insights
+## 9. **Key Insights**
 
 - Amazon was the leading brand/channel with 11,016 orders in 2022, making it the largest contributor by order volume.
 - March was the strongest month, generating INR 1.93M in sales and 2,819 orders.
@@ -117,18 +117,18 @@ Add a screenshot of key Pivot Tables here:
 - Around 28,600 orders were delivered out of 31,047 total orders, showing that most orders reached the customer successfully.
 - B2B orders made up only around 0.96% of total orders, meaning the store was mainly driven by non-B2B customers.
 
-## 10. Recommendations
+## 10. **Recommendations**
 
 - Focus marketing efforts on high-performing channels such as Amazon, while reviewing why other brands/channels have lower order volume.
 - Study March performance in more detail to understand whether promotions, seasonality, or product demand caused the sales increase.
 - Prioritize Maharashtra and other top-order states for targeted campaigns, inventory planning, and delivery optimization.
-- Since women represent the majority of orders, create customer campaigns and product recommendations aligned with this segment.
+- Since women represent the majority of orders, create customer campaigns and product **Recommendations** aligned with this segment.
 - Monitor returned, cancelled, and refunded orders to identify operational issues and improve customer experience.
 - Since B2B share is very small, decide whether to keep B2B as a minor segment or create a separate strategy to grow it.
 
-## 11. Business Impact
+## 11. **Business Impact**
 
-This dashboard helps the store quickly understand sales performance and customer behavior without manually reviewing raw data. It can support decisions around marketing, product planning, channel focus, inventory allocation, and customer segmentation.
+This **Dashboard** helps the store quickly understand sales performance and **Customer behavior** without manually reviewing raw data. It can support decisions around marketing, product planning, channel focus, inventory allocation, and customer segmentation.
 
 The analysis also helps identify which parts of the business are performing well and where deeper investigation may be needed, such as lower-performing channels, order returns, cancellations, and B2B growth.
 
@@ -136,17 +136,17 @@ The analysis also helps identify which parts of the business are performing well
 
 - Cleaning and preparing sales data for analysis.
 - Using descriptive statistics to summarize business performance.
-- Creating Pivot Tables for brand, month, state, customer, and order-status analysis.
-- Designing an Excel dashboard with KPIs and business storytelling.
-- Turning raw sales data into insights and recommendations for decision-making.
+- Creating **Pivot Tables** for brand, month, state, customer, and order-status analysis.
+- Designing an Excel **Dashboard** with **KPIs** and business storytelling.
+- Turning raw sales data into insights and **Recommendations** for decision-making.
 
 ## 13. Files
 
 | File | Description |
 |---|---|
 | `README.md` | Project case study |
-| `assets/khan-store-sales-dashboard.png` | Final dashboard screenshot |
+| `assets/khan-store-sales-**Dashboard**.png` | Final **Dashboard** screenshot |
 | `assets/cleaned-dataset-preview.png` | Placeholder for cleaned dataset screenshot |
 | `assets/pivot-table-summary.png` | Placeholder for Pivot Table screenshot |
-| `files/khan-store-sales-dashboard.xlsx` | Excel workbook with cleaned data, Pivot Tables, and dashboard |
+| `files/khan-store-sales-**Dashboard**.xlsx` | Excel workbook with cleaned data, **Pivot Tables**, and **Dashboard** |
 | `data/sample-sales-data.csv` | Optional sample or cleaned dataset for GitHub |

@@ -2,11 +2,11 @@
 
 ## Overview
 
-This project builds a baseline machine learning model to predict salary using a data professional salary dataset.
+This project builds a baseline **Machine Learning** model to predict salary using a data professional salary dataset.
 
 The goal was to understand whether salary can be estimated using simple input features such as **work year, experience level, and remote work ratio**.
 
-## Business Problem
+## **Business Problem**
 
 Salary planning is important for hiring teams, recruiters, compensation analysts, and job seekers. Salaries can vary based on seniority, year, work setup, location, company size, and role type.
 
@@ -45,7 +45,7 @@ import numpy as np
 import seaborn as sns
 
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import Linear**Regression**
 from sklearn.metrics import r2_score, mean_squared_error
 ```
 
@@ -148,7 +148,7 @@ The salary distribution was highly skewed, meaning a small number of very high s
 
 ### 8. Log Salary Distribution
 
-To make the salary distribution more suitable for regression, I checked the log-transformed salary distribution.
+To make the salary distribution more suitable for **Regression**, I checked the log-transformed salary distribution.
 
 ```python
 plt.hist(np.log1p(df["salary"]), bins=100)
@@ -259,7 +259,7 @@ This helped check whether compensation changed across years in the dataset.
 
 ### 15. Encode Experience Level
 
-Machine learning models need numeric inputs. I converted experience level into an ordered numeric feature.
+**Machine Learning** models need numeric inputs. I converted experience level into an ordered numeric feature.
 
 ```python
 exp_mapping = {
@@ -315,7 +315,7 @@ plt.show()
 
 ![Log Transformed Salary Histplot](assets/10_log_transformed_salary_histplot.png)
 
-This made the target variable more suitable for a baseline regression model.
+This made the target variable more suitable for a baseline **Regression** model.
 
 ### 17. Define Features And Target
 
@@ -367,16 +367,16 @@ Output:
 (30289,)
 ```
 
-### 19. Train Linear Regression Model
+### 19. Train Linear **Regression** Model
 
-I used Linear Regression as the baseline model.
+I used Linear **Regression** as the baseline model.
 
 ```python
-lr = LinearRegression()
+lr = Linear**Regression**()
 lr.fit(x_train, y_train)
 ```
 
-Linear Regression is a good starting point because it is simple, explainable, and useful for creating a baseline before testing more advanced models.
+Linear **Regression** is a good starting point because it is simple, explainable, and useful for creating a baseline before testing more advanced models.
 
 ### 20. Make Predictions
 
@@ -424,14 +424,14 @@ This is expected because salary is influenced by several important factors that 
 - Salary values were highly skewed, so log transformation was useful.
 - Experience level is an important salary signal.
 - Work year and remote ratio add context but are not enough to strongly predict salary.
-- The baseline Linear Regression model gives a starting point, but not a final high-accuracy model.
+- The baseline Linear **Regression** model gives a starting point, but not a final high-accuracy model.
 - Better performance will likely require richer categorical features and stronger algorithms.
 
-## Recommendations For Improvement
+## **Recommendations** For Improvement
 
 - Use `salary_in_usd` as the target for cleaner global salary comparison.
 - Encode job title, company location, employee residence, company size, and employment type.
-- Compare Linear Regression with Random Forest, Gradient Boosting, XGBoost, or LightGBM.
+- Compare Linear **Regression** with Random Forest, Gradient Boosting, XGBoost, or LightGBM.
 - Add cross-validation for more reliable model evaluation.
 - Analyze prediction errors by job title, country, experience level, and remote ratio.
 - Build a feature importance view to explain what drives salary predictions.

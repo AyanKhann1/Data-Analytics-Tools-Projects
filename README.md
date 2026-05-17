@@ -8,27 +8,27 @@ The goal of this portfolio is to demonstrate my approach to **real-world busines
 
 | Category | Description |
 |---|---|
-| **Excel Projects** | Interactive **dashboards**, **Pivot Tables**, **Power Query**, and advanced data cleaning. |
+| **Excel Projects** | Interactive **dashboards**, **Pivot Tables**, **Power Query**, and advanced **Data Cleaning**. |
 | **SQL Projects** | **Business case studies**, complex querying, **KPI analysis**, and database problem solving. |
-| **Power BI Projects** | Dynamic **Power BI dashboards** and automated business reporting. |
-| **Python / ML Projects** | **Exploratory Data Analysis (EDA)**, automation, visualization, and **Machine Learning** models. |
+| **Power BI Projects** | Dynamic **Power BI **Dashboard**s** and automated business reporting. |
+| **Python / ML Projects** | **Exploratory Data Analysis (**EDA**)**, automation, visualization, and **Machine Learning** models. |
 
 ## Featured Projects
 
 | Project | Focus Area | Tools |
 |---|---|---|
-| **Retail Store Sales Analysis** | Store sales, **customer behavior**, and order trends. | Excel, Pivot Tables, Charts |
-| **Amazon Product Analysis** | **E-commerce pricing**, discounts, and rating correlation. | Excel, Power Query |
+| **Retail Store Sales Analysis** | Store sales, **customer behavior**, and order trends. | Excel, **Pivot Tables**, Charts |
+| **Amazon Product Analysis** | **E-commerce pricing**, discounts, and rating correlation. | Excel, **Power Query** |
 | **Atliq Hardwares Analysis** | Product growth and **customer discount optimization**. | SQL |
-| **Office Essentials Retail** | Retail sales, profit, and **delivery performance**. | Power BI, DAX |
-| **Salary Prediction Model** | **Salary forecasting** and regression modeling. | Python, Pandas, Scikit-learn |
+| **Office Essentials Retail** | Retail sales, profit, and **delivery performance**. | Power BI, **DAX** |
+| **Salary Prediction Model** | **Salary forecasting** and **Regression** modeling. | Python, Pandas, Scikit-learn |
 
 ## Skills Demonstrated
 
 - **Business Problem Framing**
 - **Data Cleaning & Preparation (ETL)**
 - **KPI Definition & Tracking**
-- **Interactive Dashboarding (Excel, Power BI)**
+- **Interactive **Dashboard**ing (Excel, Power BI)**
 - **Advanced SQL Querying**
 - **Machine Learning & Predictive Modeling**
 - **AI-Assisted Project Development**
@@ -52,4 +52,4 @@ Each project follows a rigorous **business case study** structure:
 - **Objective & Key Metrics**
 - **Process & Methodology**
 - **Key Insights & Visualizations**
-- **Strategic Recommendations & Business Impact**
+- **Strategic **Recommendations** & Business Impact**

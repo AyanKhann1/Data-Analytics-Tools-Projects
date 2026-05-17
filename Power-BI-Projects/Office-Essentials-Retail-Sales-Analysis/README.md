@@ -1,4 +1,4 @@
-# Office Essentials Retail Sales Analysis Dashboard
+# Office Essentials Retail Sales Analysis **Dashboard**
 
 ![15 Days Sales Forecasting](assets/02_15_days_sales_forecast.png)
 
@@ -8,21 +8,21 @@ Office Essentials Plus is an Indian retail store that provides office, personal,
 
 This Power BI project analyzes sales, profit, orders, delivery performance, product categories, shipping modes, and short-term sales forecasting. The goal is to help marketing and business teams understand performance trends and make better decisions using data.
 
-## 2. Business Problem
+## 2. **Business Problem**
 
-The retail store did not have a strong analytics strategy for using its sales, customer, delivery, and market data. Without a dashboard, business teams had limited visibility into what was driving sales, profit, category performance, and delivery efficiency.
+The retail store did not have a strong analytics strategy for using its sales, customer, delivery, and market data. Without a **Dashboard**, business teams had limited visibility into what was driving sales, profit, category performance, and delivery efficiency.
 
 The key business question was:
 
 > How can Office Essentials Plus use its retail data to understand performance, identify trends, and support better business decisions?
 
-## 3. Objective
+## 3. **Objective**
 
-- Build a Power BI dashboard to track sales, orders, profit, and delivery performance.
+- Build a Power BI **Dashboard** to track sales, orders, profit, and delivery performance.
 - Analyze year-over-year monthly sales and profit trends.
 - Identify the strongest product categories and shipping modes.
 - Create a short-term sales forecast for the first 15 days of January 2021.
-- Present insights in a simple format for marketing and business stakeholders.
+- Present insights in a simple format for marketing and business **Stakeholder**s.
 
 ## 4. Dataset / Source
 
@@ -32,7 +32,7 @@ The dataset appears to include fields related to order date, sales, profit, quan
 
 ## 5. Data Visualizations & Insights
 
-### Sales Performance Dashboard
+### Sales Performance **Dashboard**
 
 ![15 Days Sales Forecasting](assets/02_15_days_sales_forecast.png)
 
@@ -46,7 +46,7 @@ The dataset appears to include fields related to order date, sales, profit, quan
 
 ### 15-Day Sales Forecast
 
-![Retail Sales Analysis Dashboard](assets/01_retail_sales_dashboard.png)
+![Retail Sales Analysis **Dashboard**](assets/01_retail_sales_**Dashboard**.png)
 
 **Insight:** For the first 15 days of January 2021, forecasted sales are projected to reach approximately **9,470**, with the lowest projected value around **1,156**.
 
@@ -78,7 +78,7 @@ The dataset appears to include fields related to order date, sales, profit, quan
 - Office Supplies was the strongest product category by sales, followed by Technology.
 - Average delivery time was approximately 4 days, giving the business a useful operational KPI to monitor.
 
-## 8. Recommendations
+## 8. **Recommendations**
 
 - Monitor October sales dips to understand whether seasonality, demand changes, or campaign timing caused weaker performance.
 - Focus marketing and inventory planning around high-performing months, especially the year-end sales period.
@@ -87,9 +87,9 @@ The dataset appears to include fields related to order date, sales, profit, quan
 - Use short-term forecasting to plan stock availability, campaign timing, and delivery capacity.
 - Track average delivery time regularly to protect customer experience as order volume grows.
 
-## 9. Business Impact
+## 9. **Business Impact**
 
-This dashboard gives marketing and business teams a single view of retail performance. Instead of manually reviewing sales records, stakeholders can quickly understand sales trends, profit movement, shipping performance, category contribution, and forecasted demand.
+This **Dashboard** gives marketing and business teams a single view of retail performance. Instead of manually reviewing sales records, **Stakeholder**s can quickly understand sales trends, profit movement, shipping performance, category contribution, and forecasted demand.
 
 The analysis can support decisions around **marketing campaigns, inventory planning, delivery operations, product category focus, and short-term sales planning**.
 
@@ -97,35 +97,35 @@ The analysis can support decisions around **marketing campaigns, inventory plann
 
 - Cleaned and transformed the raw retail sales data.
 - Built relationships and data models in Power BI.
-- Created DAX measures for KPIs such as sales, profit, orders, and delivery time.
-- Designed visual dashboards with slicers for interactive analysis.
+- Created **DAX** measures for **KPIs** such as sales, profit, orders, and delivery time.
+- Designed visual **Dashboard**s with slicers for interactive analysis.
 - Compared year-over-year monthly sales and profit trends.
 - Analyzed sales by ship mode and product category.
 - Built a short-term sales forecasting view.
-- Converted dashboard findings into business insights and recommendations.
+- Converted **Dashboard** findings into business insights and **Recommendations**.
 
 ## 11. Skills Demonstrated
 
-- Power BI dashboarding
-- DAX measures
-- Power Query
+- Power BI **Dashboard**ing
+- **DAX** measures
+- **Power Query**
 - ETL
 - Data modeling
 - Data transformation
-- Data cleaning
+- **Data Cleaning**
 - Slicers and custom visuals
 - Conditional formatting
 - Time-series forecasting
 - Business insight writing
-- Stakeholder-focused reporting
+- **Stakeholder**-focused reporting
 
 ## 12. Files To Add
 
 | File | Purpose |
 |---|---|
-| `assets/01_retail_sales_dashboard.png` | Main Power BI dashboard screenshot |
-| `assets/02_15_days_sales_forecast.png` | 15-day sales forecasting dashboard screenshot |
-| `files/office-essentials-retail-sales-dashboard.pbix` | Optional Power BI file |
+| `assets/01_retail_sales_**Dashboard**.png` | Main Power BI **Dashboard** screenshot |
+| `assets/02_15_days_sales_forecast.png` | 15-day sales forecasting **Dashboard** screenshot |
+| `files/office-essentials-retail-sales-**Dashboard**.pbix` | Optional Power BI file |
 | `data/sample-retail-sales-data.csv` | Optional sample dataset if data can be shared |
 
 ## 13. Repository Structure
@@ -134,10 +134,10 @@ The analysis can support decisions around **marketing campaigns, inventory plann
 Office-Essentials-Retail-Sales-Analysis/
 |-- README.md
 |-- assets/
-|   |-- 01_retail_sales_dashboard.png
+|   |-- 01_retail_sales_**Dashboard**.png
 |   |-- 02_15_days_sales_forecast.png
 |-- files/
-|   |-- office-essentials-retail-sales-dashboard.pbix
+|   |-- office-essentials-retail-sales-**Dashboard**.pbix
 |-- data/
 |   |-- sample-retail-sales-data.csv
 ```

@@ -1,6 +1,6 @@
-# Amazon Product Pricing & Rating Analysis Dashboard
+# Amazon Product Pricing & Rating Analysis **Dashboard**
 
-![Amazon Product Pricing & Rating Analysis Dashboard](assets/amazon-pricing-rating-analysis-dashboard.png)
+![Amazon Product Pricing & Rating Analysis **Dashboard**](assets/amazon-pricing-rating-analysis-**Dashboard**.png)
 
 ## 1. Overview
 
@@ -8,7 +8,7 @@ This project analyzes Amazon product data to understand how **pricing, discounts
 
 The final output is an **Excel dashboard** that helps compare actual prices, discounted prices, customer ratings, and product demand across different product groups.
 
-## 2. Business Problem
+## 2. **Business Problem**
 
 Amazon marketplace sellers and category teams need to understand whether discounts are helping product performance and customer engagement. High discounts do not always mean high order volume, and strong customer ratings may appear in categories that are not the biggest revenue contributors.
 
@@ -20,15 +20,15 @@ This project helps answer business questions such as:
 - Which brands are using aggressive discounting?
 - Are pricing patterns, such as charm pricing, linked with strong ratings?
 
-## 3. Objective
+## 3. **Objective**
 
 - Analyze pricing and discount patterns across product categories and brands.
 - Compare actual price and discounted price for top brands.
 - Identify categories and sub-categories with strong ratings and order activity.
 - Study whether low-discount products can still show high customer demand.
-- Build a dashboard that supports pricing, marketing, and customer experience decisions.
+- Build a **Dashboard** that supports pricing, marketing, and customer experience decisions.
 
-## 4. Key Insights
+## 4. **Key Insights**
 
 - **Electronics** had the highest total discount among major categories, followed by **Home & Kitchen** and **Computers & Accessories**.
 - **Musical Instruments** showed the highest average rating count, with **44,441 average ratings**, indicating strong customer engagement in that category.
@@ -37,7 +37,7 @@ This project helps answer business questions such as:
 - **Xiaomi** showed a large discount gap between actual and discounted prices, positioning the brand competitively against other major brands.
 - A large share of products used **charm pricing**, such as prices ending in `99`, and these products showed ratings above **4 out of 5** in the analysis.
 
-## 5. Recommendations
+## 5. **Recommendations**
 
 - Review high-discount categories like **Smart Televisions** to understand why order volume is not increasing proportionally.
 - Use high-demand products such as **USB Cables** for upselling, bundling, or cross-selling strategies.
@@ -46,9 +46,9 @@ This project helps answer business questions such as:
 - Avoid assuming that larger discounts always lead to stronger customer demand; combine discount analysis with orders and ratings.
 - Continue monitoring charm pricing, but validate it with conversion and revenue data before treating it as a final pricing strategy.
 
-## 6. Business Impact
+## 6. **Business Impact**
 
-This dashboard can help product, marketing, and customer experience teams make better pricing decisions. It shows where discounts are concentrated, which categories receive stronger customer engagement, and which products may have demand even without heavy discounting.
+This **Dashboard** can help product, marketing, and customer experience teams make better pricing decisions. It shows where discounts are concentrated, which categories receive stronger customer engagement, and which products may have demand even without heavy discounting.
 
 The analysis can support decisions around **pricing strategy, promotional planning, product bundling, brand positioning, and category-level performance review**.
 
@@ -67,18 +67,18 @@ The analysis can support decisions around **pricing strategy, promotional planni
 ## 8. Tools Used
 
 - Microsoft Excel
-- Power Query
-- Pivot Tables
+- **Power Query**
+- **Pivot Tables**
 - Pivot Charts
 - SUM and COUNT functions
 - Sort and filters
 - Slicers
 - Tables
 - Find and Replace
-- Data cleaning functions
+- **Data Cleaning** functions
 - Descriptive statistics
 - Exploratory Data Analysis
-- Dashboard formatting and visualization
+- **Dashboard** formatting and visualization
 
 ## 9. Dataset
 
@@ -97,21 +97,21 @@ Based on the analysis, the dataset included fields related to:
 - Rating count
 - Order count or product demand indicator
 
-Only the dashboard and case study are included in this repository.
+Only the **Dashboard** and case study are included in this repository.
 
 ## 10. Process
 
 - Reviewed the raw product dataset and identified the important fields for pricing and rating analysis.
-- Cleaned inconsistent values using Excel tools and Power Query.
-- Used Find and Replace, formatting, and data cleaning functions to prepare fields for analysis.
+- Cleaned inconsistent values using Excel tools and **Power Query**.
+- Used Find and Replace, formatting, and **Data Cleaning** functions to prepare fields for analysis.
 - Created calculated summaries for discounts, ratings, categories, brands, and order counts.
-- Built Pivot Tables to compare category-level discounts, brand-level pricing, rating counts, and sub-category order activity.
-- Used Pivot Charts and dashboard formatting to create a visual summary for business users.
+- Built **Pivot Tables** to compare category-level discounts, brand-level pricing, rating counts, and sub-category order activity.
+- Used Pivot Charts and **Dashboard** formatting to create a visual summary for business users.
 - Interpreted the results to identify pricing and customer engagement patterns.
 
-## 11. Dashboard / Output
+## 11. **Dashboard** / Output
 
-The dashboard shows:
+The **Dashboard** shows:
 
 - Price and order comparison for top sub-categories
 - Top brand-wise actual price vs discounted price
@@ -123,7 +123,7 @@ The dashboard shows:
 
 - Cleaning and preparing e-commerce product data for analysis.
 - Comparing actual price and discounted price across brands and categories.
-- Using Pivot Tables and Pivot Charts to summarize pricing and rating trends.
+- Using **Pivot Tables** and Pivot Charts to summarize pricing and rating trends.
 - Interpreting discounts together with order volume and ratings instead of reviewing them separately.
-- Building a business-focused Excel dashboard for pricing and customer experience analysis.
+- Building a business-focused Excel **Dashboard** for pricing and customer experience analysis.
 
