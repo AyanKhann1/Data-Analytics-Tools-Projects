@@ -21,6 +21,7 @@ The goal of this portfolio is to show how I approach real business questions: un
 | [Amazon Product Pricing & Rating Analysis](Excel-Projects/Amazon-Pricing-Rating-Analysis/README.md) | E-commerce pricing, discounts, ratings, product demand | Excel, Power Query, Pivot Tables |
 | [Atliq Hardwares Sales Analysis](SQL-Projects/Atliq-Hardwares-Sales-Analysis/README.md) | Product growth, customer discounting, quarterly sales performance | SQL |
 | [Office Essentials Retail Sales Analysis](Power-BI-Projects/Office-Essentials-Retail-Sales-Analysis/README.md) | Retail sales, profit, delivery performance, forecasting | Power BI, DAX, Power Query |
+| [Data Professional Salary Prediction Model](Python-ML-Projects/Data-Professional-Salary-Prediction-ML/README.md) | Salary prediction, regression modeling, EDA, feature preparation | Python, Pandas, Scikit-learn |
 
 ## Skills Demonstrated
 
@@ -50,6 +51,7 @@ The goal of this portfolio is to show how I approach real business questions: un
 |-- Power-BI-Projects/
 |   |-- Office-Essentials-Retail-Sales-Analysis/
 |-- Python-ML-Projects/
+|   |-- Data-Professional-Salary-Prediction-ML/
 ```
 
 ## How To Read These Projects

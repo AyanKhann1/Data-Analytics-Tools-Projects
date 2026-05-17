@@ -4,5 +4,7 @@ This folder will contain Python and machine learning analytics projects, includi
 
 ## Projects
 
-Python and ML projects will be added here.
+| Project | Focus Area | Tools |
+|---|---|---|
+| [Data Professional Salary Prediction Model](Data-Professional-Salary-Prediction-ML/README.md) | Salary prediction, regression modeling, EDA, feature preparation | Python, Pandas, Scikit-learn |
 
