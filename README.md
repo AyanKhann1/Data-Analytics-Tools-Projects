@@ -41,11 +41,10 @@ The goal of this portfolio is to show how I approach real business questions: un
 ├── README.md
 ├── Excel-Projects/
 │   ├── Retail-Store-Sales-Analysis-Dashboard/
-│   └── Amazon-Pricing-Rating-Analysis/
+│   └── Amazon-Product-Pricing-and-Rating-Analysis/
 ├── SQL-Projects/
 │   ├── Foodie-Fi-Subscription-Analytics/
 │   └── Atliq-Hardwares-Sales-Analysis/
-├── AI-Projects/
 ├── Power-BI-Projects/
 └── Python-Projects/
 ```
