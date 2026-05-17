@@ -140,6 +140,10 @@ plt.title("Salary Distribution")
 plt.show()
 ```
 
+**Output:**
+
+![Salary Distribution](assets/01_salary_distribution.png)
+
 The salary distribution was highly skewed, meaning a small number of very high salary values were stretching the distribution.
 
 ### 8. Log Salary Distribution
@@ -152,9 +156,30 @@ plt.title("Log Salary Distribution")
 plt.show()
 ```
 
+**Output:**
+
+![Log Salary Distribution](assets/02_log_salary_distribution.png)
+
 The log-transformed salary was more balanced than the original salary distribution.
 
-### 9. Experience Level Distribution
+### 9. Salary And Experience Level Scatterplot
+
+I also checked the relationship between salary and experience level using a scatterplot.
+
+```python
+sns.scatterplot(x=df["salary"], y=df["experience_level"], alpha=0.3)
+plt.xlabel("Experience Level")
+plt.ylabel("Salary")
+plt.show()
+```
+
+**Output:**
+
+![Salary vs Experience Level Scatterplot](assets/03_salary_vs_experience_scatter.png)
+
+This helped visually confirm that experience level is related to salary, but salary spread is still wide within each experience group.
+
+### 10. Experience Level Distribution
 
 Experience level is an important compensation signal, so I checked how records were distributed across experience groups.
 
@@ -163,9 +188,13 @@ df["experience_level"].value_counts().plot(kind="bar")
 plt.show()
 ```
 
+**Output:**
+
+![Experience Level Distribution](assets/04_experience_level_distribution.png)
+
 This helped confirm whether the model had enough records across different seniority levels.
 
-### 10. Remote Ratio Distribution
+### 11. Remote Ratio Distribution
 
 Remote work setup can influence compensation, so I checked the distribution of remote work categories.
 
@@ -174,9 +203,13 @@ df["remote_ratio"].value_counts().plot(kind="bar")
 plt.show()
 ```
 
+**Output:**
+
+![Remote Ratio Distribution](assets/05_remote_ratio_distribution.png)
+
 This helped identify how many roles were onsite, hybrid, or fully remote.
 
-### 11. Salary By Experience Level
+### 12. Salary By Experience Level
 
 I compared salary across experience levels to check whether higher seniority generally aligned with higher salary.
 
@@ -186,9 +219,13 @@ plt.title("Salary by Experience Level")
 plt.show()
 ```
 
+**Output:**
+
+![Salary By Experience Level](assets/06_salary_by_experience_level.png)
+
 This view helped identify differences in salary distribution between entry, mid, senior, and executive levels.
 
-### 12. Salary By Remote Ratio
+### 13. Salary By Remote Ratio
 
 I checked whether salary varied meaningfully across remote work categories.
 
@@ -198,9 +235,13 @@ plt.title("Salary by Remote Ratio")
 plt.show()
 ```
 
+**Output:**
+
+![Salary By Remote Ratio](assets/07_salary_by_remote_ratio.png)
+
 Remote ratio was useful context, but it was not enough by itself to explain salary differences.
 
-### 13. Salary By Work Year
+### 14. Salary By Work Year
 
 I compared salary across work years to observe year-level salary movement.
 
@@ -210,9 +251,13 @@ plt.title("Salary by Work Year")
 plt.show()
 ```
 
+**Output:**
+
+![Salary By Work Year](assets/08_salary_by_work_year.png)
+
 This helped check whether compensation changed across years in the dataset.
 
-### 14. Encode Experience Level
+### 15. Encode Experience Level
 
 Machine learning models need numeric inputs. I converted experience level into an ordered numeric feature.
 
@@ -242,7 +287,7 @@ After encoding, the original text column was removed.
 df.drop(columns=["experience_level"], inplace=True)
 ```
 
-### 15. Apply Log Transformation
+### 16. Apply Log Transformation
 
 Because salary was highly skewed, I created a log-transformed target variable.
 
@@ -262,9 +307,17 @@ plt.title("Salary (Log Transformed)")
 plt.show()
 ```
 
+**Output: Original Salary**
+
+![Original Salary Histplot](assets/09_original_salary_histplot.png)
+
+**Output: Log Transformed Salary**
+
+![Log Transformed Salary Histplot](assets/10_log_transformed_salary_histplot.png)
+
 This made the target variable more suitable for a baseline regression model.
 
-### 16. Define Features And Target
+### 17. Define Features And Target
 
 The model predicts `salary_log`, while the original salary column is removed from the feature set.
 
@@ -283,7 +336,7 @@ Target:
 
 - `salary_log`
 
-### 17. Train-Test Split
+### 18. Train-Test Split
 
 The data was split into training and testing sets.
 
@@ -314,7 +367,7 @@ Output:
 (30289,)
 ```
 
-### 18. Train Linear Regression Model
+### 19. Train Linear Regression Model
 
 I used Linear Regression as the baseline model.
 
@@ -325,7 +378,7 @@ lr.fit(x_train, y_train)
 
 Linear Regression is a good starting point because it is simple, explainable, and useful for creating a baseline before testing more advanced models.
 
-### 19. Make Predictions
+### 20. Make Predictions
 
 The trained model was used to predict salaries on the test set.
 
@@ -333,7 +386,7 @@ The trained model was used to predict salaries on the test set.
 y_pred = lr.predict(x_test)
 ```
 
-### 20. Evaluate Model Performance
+### 21. Evaluate Model Performance
 
 The model was evaluated using RMSE and R2 score.
 
@@ -400,6 +453,17 @@ Data-Professional-Salary-Prediction-ML/
 |-- README.md
 |-- data/
 |   |-- salaries.csv
+|-- assets/
+|   |-- 01_salary_distribution.png
+|   |-- 02_log_salary_distribution.png
+|   |-- 03_salary_vs_experience_scatter.png
+|   |-- 04_experience_level_distribution.png
+|   |-- 05_remote_ratio_distribution.png
+|   |-- 06_salary_by_experience_level.png
+|   |-- 07_salary_by_remote_ratio.png
+|   |-- 08_salary_by_work_year.png
+|   |-- 09_original_salary_histplot.png
+|   |-- 10_log_transformed_salary_histplot.png
 |-- notebooks/
 |   |-- salary_prediction_model.ipynb
 |-- requirements.txt
