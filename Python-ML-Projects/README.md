@@ -1,8 +1,8 @@
-# Python Projects
+# Python / ML Projects
 
-This folder will contain Python-based analytics projects, including data cleaning, exploratory data analysis, automation, and visualization.
+This folder will contain Python and machine learning analytics projects, including data cleaning, exploratory data analysis, automation, visualization, feature engineering, and model-building work.
 
 ## Projects
 
-Python projects will be added here.
+Python and ML projects will be added here.
 
