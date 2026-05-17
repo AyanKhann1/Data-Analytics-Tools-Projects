@@ -1,42 +1,39 @@
 # Ayan Khan - Data Analytics Tools Projects
 
-Welcome to my data analytics tools project repository. This repository contains business-focused analytics projects built for **Data Analyst, Business Analyst, Product Analyst, E-commerce Analyst, and AI-focused analytics** roles.
+Welcome to my **data analytics tools** project repository. This collection contains **business-focused analytics projects** tailored for Data Analyst, Business Analyst, Product Analyst, E-commerce Analyst, and AI-focused analytics roles.
 
-The goal of this portfolio is to show how I approach real business questions: understanding the problem, preparing the data, creating useful metrics, building dashboards or queries, and turning findings into practical recommendations.
+The goal of this portfolio is to demonstrate my approach to **real-world business questions**: understanding the problem, preparing data, creating meaningful **KPIs**, building interactive **dashboards**, and translating findings into **actionable recommendations**.
 
 ## Project Categories
 
 | Category | Description |
 |---|---|
-| [Excel Projects](Excel-Projects/README.md) | Excel dashboards, Pivot Tables, Power Query, data cleaning, and business reporting |
-| [SQL Projects](SQL-Projects/README.md) | SQL case studies, querying, KPI analysis, and business problem solving |
-| [Power BI Projects](Power-BI-Projects/README.md) | Power BI dashboards and reporting projects |
-| [Python / ML Projects](Python-ML-Projects/README.md) | Python data cleaning, EDA, automation, visualization, and ML projects |
+| **Excel Projects** | Interactive **dashboards**, **Pivot Tables**, **Power Query**, and advanced data cleaning. |
+| **SQL Projects** | **Business case studies**, complex querying, **KPI analysis**, and database problem solving. |
+| **Power BI Projects** | Dynamic **Power BI dashboards** and automated business reporting. |
+| **Python / ML Projects** | **Exploratory Data Analysis (EDA)**, automation, visualization, and **Machine Learning** models. |
 
 ## Featured Projects
 
 | Project | Focus Area | Tools |
 |---|---|---|
-| [Retail Store Sales Analysis Dashboard](Excel-Projects/Retail-Store-Sales-Analysis-Dashboard/README.md) | Store sales, customer behavior, order trends | Excel, Pivot Tables, Pivot Charts |
-| [Amazon Product Pricing & Rating Analysis](Excel-Projects/Amazon-Pricing-Rating-Analysis/README.md) | E-commerce pricing, discounts, ratings, product demand | Excel, Power Query, Pivot Tables |
-| [Atliq Hardwares Sales Analysis](SQL-Projects/Atliq-Hardwares-Sales-Analysis/README.md) | Product growth, customer discounting, quarterly sales performance | SQL |
-| [Office Essentials Retail Sales Analysis](Power-BI-Projects/Office-Essentials-Retail-Sales-Analysis/README.md) | Retail sales, profit, delivery performance, forecasting | Power BI, DAX, Power Query |
-| [Data Professional Salary Prediction Model](Python-ML-Projects/Data-Professional-Salary-Prediction-ML/README.md) | Salary prediction, regression modeling, EDA, feature preparation | Python, Pandas, Scikit-learn |
+| **Retail Store Sales Analysis** | Store sales, **customer behavior**, and order trends. | Excel, Pivot Tables, Charts |
+| **Amazon Product Analysis** | **E-commerce pricing**, discounts, and rating correlation. | Excel, Power Query |
+| **Atliq Hardwares Analysis** | Product growth and **customer discount optimization**. | SQL |
+| **Office Essentials Retail** | Retail sales, profit, and **delivery performance**. | Power BI, DAX |
+| **Salary Prediction Model** | **Salary forecasting** and regression modeling. | Python, Pandas, Scikit-learn |
 
 ## Skills Demonstrated
 
-- Business problem framing
-- Data cleaning and preparation
-- KPI definition
-- Excel dashboarding
-- SQL querying and analysis
-- Power BI dashboarding
-- Python and ML project development
-- AI-assisted project building
-- Customer, sales, pricing, and subscription analysis
-- Insight generation
-- Recommendation writing
-- Clear case study documentation
+- **Business Problem Framing**
+- **Data Cleaning & Preparation (ETL)**
+- **KPI Definition & Tracking**
+- **Interactive Dashboarding (Excel, Power BI)**
+- **Advanced SQL Querying**
+- **Machine Learning & Predictive Modeling**
+- **AI-Assisted Project Development**
+- **Customer & Sales Analytics**
+- **Insight Generation & Strategic Recommendations**
 
 ## Repository Structure
 
@@ -44,29 +41,15 @@ The goal of this portfolio is to show how I approach real business questions: un
 .
 |-- README.md
 |-- Excel-Projects/
-|   |-- Retail-Store-Sales-Analysis-Dashboard/
-|   |-- Amazon-Pricing-Rating-Analysis/
 |-- SQL-Projects/
-|   |-- Atliq-Hardwares-Sales-Analysis/
 |-- Power-BI-Projects/
-|   |-- Office-Essentials-Retail-Sales-Analysis/
 |-- Python-ML-Projects/
-|   |-- Data-Professional-Salary-Prediction-ML/
 ```
 
-## How To Read These Projects
-
-Each project is written as a business case study with:
-
-- Overview
-- Business problem
-- Objective
-- Key insights
-- Recommendations
-- Business impact
-- Key metrics
-- Tools used
-- Dataset context
-- Process
-- Dashboard or output
-- What I learned
+## Case Study Framework
+Each project follows a rigorous **business case study** structure:
+- **Overview & Business Problem**
+- **Objective & Key Metrics**
+- **Process & Methodology**
+- **Key Insights & Visualizations**
+- **Strategic Recommendations & Business Impact**
